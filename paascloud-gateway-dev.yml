@@ -94,8 +94,8 @@ zuul:
 security:
   oauth2:
     client:
-      clientId: paascloud-client-gateway
-      clientSecret: paascloudClientSecret
+      clientId:
+      clientSecret:
       access-token-uri: http://localhost:7979/uac/oauth/token
       user-authorization-uri: http://localhost:7979/uac/oauth/authorize
     resource:
